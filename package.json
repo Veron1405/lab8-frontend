@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "lab8-frontend",
   "version": "1.0.0",
   "type": "module",
@@ -16,5 +17,28 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",
     "vite": "^5.4.6"
+=======
+  "name": "lab8-backend",
+  "version": "1.0.0",
+  "description": "API do Lab 8 - Aplicações Web (Cloud Computing, CI/CD, PostgreSQL)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node seed.js",
+    "migrate": "npx prisma migrate dev"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.19.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prisma": "^5.19.0"
+>>>>>>> b2d83f43630e4cb14da1e43fbc986ee44ec0ab34
   }
 }

@@ -1,3 +1,9 @@
 node_modules/
+<<<<<<< HEAD
 dist/
 .env
+=======
+.env
+dev.db
+dev.db-journal
+>>>>>>> b2d83f43630e4cb14da1e43fbc986ee44ec0ab34
