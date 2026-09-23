@@ -3,7 +3,7 @@ import axios from 'axios';
 // ⚠️ Depois que fizer o deploy do Back-end no Render (Fase 3),
 // troque a linha abaixo pela URL real, ex:
 // export const API_URL = 'https://api-unisenai-106.onrender.com';
-export const API_URL = 'http://localhost:3000';
+export const API_URL = 'https://lab8-backend-7jvk.onrender.com/';
 
 const api = axios.create({
   baseURL: API_URL,
